@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国脉康智慧养老平台</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body,
+        .mui-content {
+            background: #f0f0f0;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .mui-bar-nav {
+            box-shadow: none;
+        }
+        
+        .mui-bar {
+            box-shadow: none;
+        }
+        
+        .mui-bar-nav .mui-title {
+            color: #fff !important;
+        }
+        
+        header {
+            background: #13c0ab!important;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body,
+        .mui-grid-view.mui-grid-9,
+        .mui-grid-view.mui-grid-9 .mui-table-view-cell.mui-active {
+            background: #fff;
+        }
+        
+        .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            padding: 10px 6px;
+        }
+        
+        .mui-grid-view.mui-grid-9 {
+            border-left: 1px solid #fff;
+            border-top: 1px solid #fff;
+        }
+        
+        .text-margin-top {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            color: #333;
+            white-space: normal !important;
+        }
+        
+        .iconfont2 {
+            color: #fff;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        
+        .mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+            margin: 0;
+            padding: 2px 0;
+        }
+        
+        .blue-bg {
+            background: #3ec3ff;
+        }
+        
+        .orange-bg {
+            background: #ffbf79;
+        }
+        
+        .green-bg {
+            background: #71deb1;
+        }
+        
+        .purple-bg {
+            background: #8aabff;
+        }
+        
+        .padbox {
+            margin: 5px;
+            padding: 8px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .padbox h5 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        
+        .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            padding: 10px 6px;
+        }
+        
+        body,
+        .mui-content {
+            background: #f0f0f0;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .padbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-flow: wrap;
+            margin: 5px;
+            padding: 8px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .padbox img {
+            width: 80%;
+        }
+        .mui-bar-tab a {
+            padding-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部标题 -->
+    <header>
+        <h1>产品中心</h1>
+    </header>
+
+    <!-- 联系我们及在线客服 -->
+    <div class="contact">
+        <ul>
+            <li class="contact_bor">
+                <span class="iconfont icon-mobilephone"></span>
+                <span>电话</span>
+                <div class="contact_phone">123</div>
+            </li>
+            <li class="contact_bor">
+                <span class="iconfont icon-addressbook"></span>
+                <span>在线客服</span>
+                <div class="contact_business">123</div>
+            </li>
+            <li>
+                <span class="iconfont icon-headlines"></span>
+                <span>其他</span>
+                <div class="contact_message">123</div>
+            </li>
+        </ul>
+    </div>
+
+    <!--轮播图-->
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="images/index/yljg-banner1.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="images/index/yyjh-banner1.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="images/index/jjyl-banner1.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- Add Arrows(左右箭头) -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination(导航小点点) -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <!-- <div class="mui-content"></div> -->
+    <!-- 轮播图开始 -->
+    <!-- <div id="slider" class="mui-slider" data-slider="1" data-slidershowtimer="8019">
+        <div class="mui-slider-group mui-slider-loop"> -->
+    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+    <!-- <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="javascript:;">
+                    <img src="images/index/yyjh-banner1.jpg">
+                </a>
+            </div> -->
+    <!-- 第一张 -->
+    <!-- <div class="mui-slider-item">
+                <a href="javascript:;">
+                    <img src="images/index/jjyl-banner1.jpg">
+                </a>
+            </div> -->
+    <!-- 第二张 -->
+    <!-- <div class="mui-slider-item">
+                <a href="javascript:;">
+                    <img src="images/index/yljg-banner1.jpg">
+                </a>
+            </div> -->
+    <!-- 第三张 -->
+    <!-- <div class="mui-slider-item mui-active">
+                <a href="javascript:;">
+                    <img src="images/index/yyjh-banner1.jpg">
+                </a>
+            </div> -->
+    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+    <!-- <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="javascript:;">
+                    <img src="images/index/jjyl-banner1.jpg">
+                </a>
+            </div>
+        </div> -->
+
+    <!-- <div class="mui-slider-indicator">
+        <div class="mui-indicator mui-active"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator mui-active"></div>
+    </div>
+    </div> -->
+    <!-- 轮播图结束 -->
+
+    <!-- 详细系统模块 -->
+    <!-- 九宫格开始 -->
+    <ul class="mui-table-view mui-grid-view mui-grid-9">
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-createtask blue-bg"></span>
+                <div class="mui-media-body text-margin-top">居家养老系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-document orange-bg"></span>
+                <div class="mui-media-body text-margin-top">机构养老系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-activity green-bg"></span>
+                <div class="mui-media-body text-margin-top">医养结合系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-order purple-bg"></span>
+                <div class="mui-media-body text-margin-top">长期护理险系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-bingli orange-bg"></span>
+                <div class="mui-media-body text-margin-top">家庭医生服务管理系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-gengxin blue-bg"></span>
+                <div class="mui-media-body text-margin-top">智慧退休干部服务管理系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-workbench purple-bg"></span>
+                <div class="mui-media-body text-margin-top">智慧养老医护系统</div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+            <a href="javascript:;">
+                <span class="mui-icon iconfont iconfont2 icon-task green-bg"></span>
+                <div class="mui-media-body text-margin-top">旅居养老服务平台系统</div>
+            </a>
+        </li>
+    </ul>
+
+    <!-- 微信二维码开始 -->
+    <div class="mui-table" style="background: #fff;margin-bottom:60px;">
+        <div class="mui-table-cell mui-col-xs-6">
+            <div class="padbox">
+                <img src="images/product/sy-wxgzh.jpg" alt="">
+                <strong>微信公众号</strong>
+            </div>
+        </div>
+        <div class="mui-table-cell mui-col-xs-6">
+            <div class="padbox">
+                <img src="images/product/sy-wxxcx.jpg" alt="">
+                <strong>微信小程序</strong>
+            </div>
+        </div>
+    </div>
+    <!-- 微信二维码结束 -->
+
+    <!--底部导航-->
+    <div class="wall"></div>
+    <nav class="mui-bar-tab">
+        <a class="mui-tab-item-ko" href="index.html" id="a_index">
+            <span class="iconfont icon-homepage"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item-ko mui-active" href="javascript:;" id="a_cpzx">
+            <span class="iconfont icon-commodity"></span>
+            <span class="mui-tab-label">产品中心</span>
+        </a>
+        <a class="mui-tab-item-ko" href="cooperation.html" id="a_yjhz">
+            <span class="iconfont icon-like"></span>
+            <span class="mui-tab-label">硬件合作</span>
+        </a>
+        <a class="mui-tab-item-ko" href="aboutUs.html" id="a_about">
+            <span class="iconfont icon-mine"></span>
+            <span class="mui-tab-label">关于我们</span>
+        </a>
+    </nav>
+</body>
+<script src="js/swiper.js"></script>
+<script>
+    // swiper
+    var swiper_button_next = document.querySelector('.swiper-button-next');
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 80,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    // 自动播放功能和鼠标经过暂停自动播放
+    var swiper_wrapper = document.querySelector('.swiper-wrapper');
+    var timer = setInterval(function() {
+        swiper_button_next.click();
+    }, 2000);
+    swiper_wrapper.addEventListener('mouseenter', function() {
+        clearInterval(timer);
+    });
+    swiper_wrapper.addEventListener('mouseleave', function() {
+        timer = setInterval(function() {
+            swiper_button_next.click();
+        }, 2000);
+    })
+</script>
+
+</html>

@@ -1,0 +1,184 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    min-width: 550px;
+    background-color: #fff !important;
+}
+
+/* 头部标题栏样式 */
+
+header {
+    background: #13c0ab !important;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+}
+
+/* 联系我们及客服 */
+
+.contact ul {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 251, 255, 0.8);
+    border-radius: 20px;
+    z-index: 9999;
+}
+
+.contact .iconfont {
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.contact li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.contact li:hover div {
+    display: block;
+}
+
+.contact .contact_bor {
+    border-bottom: 1px solid #aaa;
+}
+
+.contact span {
+    width: 100%;
+    height: 30px;
+}
+
+.contact div {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 100px;
+    height: 70px;
+    background-color: #80ff00;
+    border-radius: 20px;
+    display: none;
+}
+
+.contact div::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    width: 0px;
+    height: 0px;
+    /* 为了照顾兼容性 */
+    line-height: 0;
+    font-size: 0;
+    /* ########## */
+    border: 10px solid transparent;
+    border-left: 10px solid #80ff00;
+    border-right: none;
+}
+
+
+/* 轮播图样式 */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+/* 底部导航栏样式 */
+.wall {
+    height: 50px;
+}
+
+.mui-bar-tab {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-shadow: none;
+    background-color: #ddd;
+}
+
+.mui-bar-tab .mui-tab-item-ko {
+    width: 25%;
+    display: table-cell;
+    overflow: hidden;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.mui-bar-tab .mui-tab-item-ko:hover {
+    background-color: #ffa94a;
+}
+
+.mui-bar-tab .mui-active {
+    color: #03b7a2 !important;
+}
+
+.mui-bar-tab .iconfont {
+    top: 3px;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mui-bar-tab .mui-bar-lable {
+    font-size: 14px;
+}
+
+.mui-bar-tab .mui-tab-item-ko .iconfont~.mui-tab-label {
+    font-size: 11px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

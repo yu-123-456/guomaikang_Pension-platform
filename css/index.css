@@ -1,0 +1,113 @@
+/* 两个入口 */
+.mui-table-cell {
+    width: 50%;
+    float: left;
+}
+
+.purple-bg {
+    background: #a37fdd;
+}
+
+.orange-bg {
+    background: #ffa94a;
+}
+
+.padbox {
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.padbox h5 {
+    color: #fff;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+/*八个详细模块样式*/
+.btnbox {
+    width: 100%;
+    margin: 2px 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.btnfloat {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    float: left;
+    padding: 8px;
+}
+
+.btnfloat img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mui-media-body {
+    height: 120px;
+    width: 100%;
+}
+/* 超出两行省略号表示 */
+.mui-media-body p {
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:2;  /* 设置行数 */
+	-webkit-box-orient: vertical;
+}
+
+.imgbox {
+    line-height: 54px;
+    max-width: 54px;
+    height: 54px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+.mui-media-body h3 {
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.borderbox {
+    border-right: 1px solid #ddd;
+}
+
+.border-bottombox {
+    border-bottom: 1px solid #ddd;
+}
+
+.redcololr {
+    color: #f35050 !important;
+    font-weight: 400;
+}
+
+.bluecololr {
+    color: #618efd !important;
+    font-weight: 400;
+}
+
+.greencolor {
+    color: #13c0ab !important;
+    font-weight: 400;
+}
+
+.orangecolor {
+    color: #ffa94a !important;
+    font-weight: 400;
+}
+
+.mui-media-body p {
+    font-size: 12px;
+    text-align: inherit;
+}
